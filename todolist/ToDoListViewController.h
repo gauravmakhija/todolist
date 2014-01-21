@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToDoListViewController.h
 //  todolist
 //
 //  Created by Gaurav Makhija on 1/20/14.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ToDoItemCell.h"
 
-@interface ViewController : UIViewController
+@interface ToDoListViewController : UITableViewController <UITextFieldDelegate>
 
 @end
